@@ -1,0 +1,74 @@
+:root {
+    --main-color: #d02d00;
+    --second-color: #ffffff;
+}
+
+body {
+    color: var(--main-color);
+    background-color: (var(--second-color));
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2, h3, h4 {
+   font-size: 6.4px; 
+   font-weight: lighter;
+   margin: 0;
+   padding: 0px 0px 0px 15px;
+   letter-spacing: 0.05em;
+}
+
+a {
+   color: var(--main-color); 
+   text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right li {
+  float: right;
+}
+
+.left li {
+  float: left;
+  font-size: 33px;
+  word-spacing: -4px;
+  padding: 8px 0px 5px 15px;
+}
+
+li a {
+  font-size: 10px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+}
+
+table, td, th {
+  border-bottom: 1px solid var(--main-color);  
+}
+
+table, p, th {
+  font-weight: lighter;
+}
+
+table {
+  font-size: 8px;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
